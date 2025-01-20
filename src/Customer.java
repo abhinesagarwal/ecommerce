@@ -9,6 +9,18 @@ public class Customer {
         this.cart = new Cart();
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCart(Cart cart) {
+        this.cart = cart;
+    }
+
     public int getId() {
         return id;
     }

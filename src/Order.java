@@ -12,6 +12,18 @@ public class Order {
         this.products = new ArrayList<>();
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+
+    public void setProducts(List<Product> products) {
+        this.products = products;
+    }
+
     public int getId() {
         return id;
     }
